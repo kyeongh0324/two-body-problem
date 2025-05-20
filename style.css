@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.controls {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.control-group {
+    margin-bottom: 15px;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.control-group input[type="range"] {
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px; /* 버튼 크기 약간 조절 */
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* 버튼 간 간격 */
+}
+button:last-child {
+    margin-right: 0;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#resetButton {
+    background-color: #e74c3c;
+}
+#resetButton:hover {
+    background-color: #c0392b;
+}
+
+
+#simulationCanvas {
+    border: 1px solid #ccc;
+    background-color: #000; /* 검은색 우주 배경 */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
